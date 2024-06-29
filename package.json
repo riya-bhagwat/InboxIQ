@@ -1,0 +1,28 @@
+{
+  "name": "email-tool",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.14.8",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.2"
+  },
+  "dependencies": {
+    "@azure/identity": "^4.3.0",
+    "@azure/msal-node": "^2.9.2",
+    "@microsoft/microsoft-graph-client": "^3.0.7",
+    "@types/microsoft-graph": "^2.40.0",
+    "dotenv": "^16.4.5",
+    "googleapis": "^140.0.0",
+    "isomorphic-fetch": "^3.0.0",
+    "js-base64": "^3.7.7",
+    "openai": "^4.52.0"
+  }
+}
